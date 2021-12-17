@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #635854;
+  padding: 12px 0;
+  border-bottom: 4px solid #3596f5;
+}
+
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.navbar-item {
+  margin: 0 40px;
+  text-decoration: none;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-contacts {
+  text-align: right;
+}
+
+.navbar-text {
+  display: block;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.navbar-phone {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 54px;
+  display: flex;
+}
+
+.main-info {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+
+.home-image path {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.home-image path:hover {
+  opacity: 1;
+}
+
+path.current-floor {
+  opacity: 1;
+}
+
+.counter-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+.main-title {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 37px;
+  color: #635854;
+}
+
+.counter {
+  font-family: sans-serif;
+  font-size: 124px;
+  color: #635854;
+}
+
+.button-primary {
+  background-color: #3596f5;
+  border-radius: 6px;
+  padding: 16px 36px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: #d7d7d7;
+  padding: 50px 0px;
+  color: black;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 60px 0px 35px;
+}
+
+.phone a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.info-social {
+  display: flex;
+  align-items: center;
+}
+
+.info-doc a {
+  margin-left: 20px;
+  color: black;
+  opacity: 0.5;
+}
